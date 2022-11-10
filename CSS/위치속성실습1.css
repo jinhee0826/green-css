@@ -1,0 +1,32 @@
+.bookmark {
+    padding: 10px; /*줄 간격*/
+    position: fixed;
+    top: 0; right: 0;
+    width: 150px;
+    height: 120px;
+    background-color: coral;
+}
+
+ul{
+    list-style-type: none;
+    /* a태그 앞에 점 지우는 것*/
+}
+
+a{
+    text-decoration: none; /* a태그 밑줄 지우는 것*/
+    color: black;
+}
+a:hover {
+    color: white;
+}
+
+.menu {
+    overflow: auto;
+    padding: 20px;
+    background-color: yellow;
+}
+.menu li{ /* <= 클래스 안에 있는 태그에게만 접근가능!!*/
+    float: left;
+    padding: 10px;
+    background-color: darkgreen;
+}

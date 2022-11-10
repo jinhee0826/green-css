@@ -1,0 +1,19 @@
+.outter-box {
+    width: 100%;
+    height: 500px;
+    background-color: cadetblue;
+    font-size: 1.5em; 
+    /*폰트를 넣어놔서 고정위치보다 폰트가 큼*/
+}
+.inner-box {
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+}
+.m-position-relative { 
+    position: relative; left: 200px;
+}
+.m-position-fixed {
+    position: fixed; bottom: 0; right: 0;
+}
+

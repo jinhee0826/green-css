@@ -1,0 +1,36 @@
+.main-contents {
+    border: 3px solid salmon;
+    list-style-type: none;
+}
+.main-contents ul{
+    list-style-type: none;
+}
+.main-contents li a {
+    text-decoration: none;
+    color: black;
+}
+.tag ul {
+    list-style-type: none;
+}
+.tag ul li {
+    float: right;
+    background-color: blue;
+    border-radius: 20px;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 10px;
+}
+
+.notic p::after{ 
+    /*.notic p:first-child:after 이렇게 하면 처음만 가능*/
+    content: "N";
+    background-color: orange;
+    width: 20px; height: 20px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    margin-left: 5px;
+
+}
+

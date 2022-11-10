@@ -1,5 +1,6 @@
 h1 {
     font-family: fantasy;
+    text-align: center;
 }
 div {
     width: 200px; height: 15;
@@ -24,4 +25,20 @@ span {
     text-decoration: underline wavy red 2px;
     color: green;
     font-family: 궁서;
+}
+
+table{background-color: bisque;
+     border-radius:0 0 20px 20px ; 
+     /*border-bottom-left-radius: 20px; 
+     border-bottom-right-radius: 20px; 이렇게 해도 같음*/ 
+    border-collapse: collapse;
+
+    margin: auto;
+}
+
+.table-tittle {background-color: orange;
+border-bottom: 1px solid brown;}
+
+td {
+    padding: 5px 10px;
 }

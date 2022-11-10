@@ -1,0 +1,16 @@
+@import url("reset.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+
+form {
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(100, 255, 255, 0.2);
+}
+h1 {
+    font-family: 'Gamja Flower', cursive;
+}
+
+

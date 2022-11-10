@@ -1,0 +1,19 @@
+ol>li{
+    background-color: blanchedalmond;
+}
+input:focus{
+    font-weight: bold;
+    background-color: black;
+    color: white;
+}
+.list{
+    list-style-type: none;
+}
+
+.list li input:checked + span{
+    text-decoration: line-through;
+}
+
+.li-background li:nth-child(2n) {
+    background-color: brown;
+}
